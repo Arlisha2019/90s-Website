@@ -1,0 +1,41 @@
+body {
+  background-image: url("graffiti-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Finger Paint', cursive;
+  font-size: 520%;
+  padding: 0px;
+  margin: 100px;
+  text-align: center;
+  -webkit-text-fill-color: #6c5ce7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-decoration: underline
+}
+
+h3, ul {
+  font-family: 'Finger Paint', cursive;
+  color: #6c5ce7;
+  font-size: 300%;
+  text-align: center;
+  list-style: none;
+  -webkit-text-fill-color: #6c5ce7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+
+
+}
+
+.menu {
+  font-family: 'Finger Paint', cursive;
+  color: #6c5ce7;
+  font-size: 300%;
+  text-align: center;
+  -webkit-text-fill-color: #6c5ce7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+
+}
