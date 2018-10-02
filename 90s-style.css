@@ -1,5 +1,5 @@
 body {
-  background-image: url("graffiti-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("graffiti-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11,7 +11,7 @@ h1 {
   margin: 100px;
   text-align: center;
   -webkit-text-fill-color: #6c5ce7;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: white;
   text-decoration: underline
 }
@@ -19,23 +19,36 @@ h1 {
 h3, ul {
   font-family: 'Finger Paint', cursive;
   color: #6c5ce7;
-  font-size: 300%;
+  font-size: 120%;
   text-align: center;
   list-style: none;
   -webkit-text-fill-color: #6c5ce7;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+}
 
+a { color: #6c5ce7;
+  -webkit-text-fill-color: #6c5ce7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 
+}
+
+.arlisha {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu {
   font-family: 'Finger Paint', cursive;
-  color: #6c5ce7;
+  color: #55efc4;
   font-size: 300%;
   text-align: center;
-  -webkit-text-fill-color: #6c5ce7;
+  -webkit-text-fill-color: #55efc4;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: #55efc4;
 
 }
